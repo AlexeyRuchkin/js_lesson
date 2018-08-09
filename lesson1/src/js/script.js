@@ -19,18 +19,13 @@ manList = {
 		 
 }
 
-
 for (i = 0; i < 3; i++) {
 
 	 shopGoods[i] = prompt ("Какой тип товаров будем продавать?");
 }
-
 alert(shopGoods);
-
-alert(moneyMonth/30);
-
-
-
+oneDay = moneyMonth/30;
+alert('Бюджет на один день'+oneDay);
 console.log(manList);
 
 
