@@ -13,15 +13,15 @@ let mainList = {
 }
 
 while (num < 5) {
-	let num = prompt ("Какой тип товаров будем продавать?");
-	num++;// statement
+	let a = prompt ("Какой тип товаров будем продавать?");
+	num++;
+	// statement
 
 	if ((typeof(a)) === 'string' && (typeof(a)) === null && a != '' && a.length < 50) {
 		console.log('Все верно!');
 		mainList.shopGoods[i] = a;
 	}
 }
-
 
 
 alert(mainList.budget / 30);
