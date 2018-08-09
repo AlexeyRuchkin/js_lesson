@@ -4,7 +4,7 @@ var shopName;
 var manList = {};
 var shopGoods = [];
 var employers = {};
-var open = false
+var open = false;
 
 
 moneyMonth = prompt ("Ваш бюджет на месяц?");
