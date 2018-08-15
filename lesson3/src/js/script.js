@@ -83,7 +83,7 @@ function hireEmployees() {
 	}
 	
 }
-
+hireEmployees();
 
 
 console.log(mainList);
