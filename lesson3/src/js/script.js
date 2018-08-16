@@ -75,7 +75,7 @@ function hireEmployees() {
 
 		let nameEmployele = prompt ('Имя сотрудника:');
 		if ((typeof(nameEmployele)) === 'string' && (typeof(nameEmployele)) != null && nameEmployele != '') {
-			mainList.employers[i] = [i + 1,nameEmployele];			 
+			mainList.employers[i + 1] = nameEmployele;			 
 		} else {
 			i = i - 1;
 		}
